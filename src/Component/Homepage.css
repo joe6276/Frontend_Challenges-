@@ -1,0 +1,11 @@
+.heading{
+    color:red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+#link{
+    font-size:20px ;
+    font-family :ubuntu ;
+    color:white;
+    font-weight:bold;
+}
