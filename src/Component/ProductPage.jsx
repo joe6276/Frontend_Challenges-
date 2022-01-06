@@ -16,12 +16,12 @@ export default class ProductPage extends Component {
             <div>
             <div className='nav-bar'>
                 <div className="nav-left">
-                    <a href="#" className="logo">Sneakers</a>
-                    <a href="#" className="nav-left-item">Collection</a>
-                    <a href="#" className="nav-left-item">Men</a>
-                    <a href="#" className="nav-left-item">women</a>
-                    <a href="#" className="nav-left-item">about</a>
-                    <a href="#" className="nav-left-item">contact</a>
+                    <a href="https://github.com/joe6276" className="logo">Sneakers</a>
+                    <a href="https://github.com/joe6276" className="nav-left-item">Collection</a>
+                    <a href="https://github.com/joe6276" className="nav-left-item">Men</a>
+                    <a href="https://github.com/joe6276" className="nav-left-item">women</a>
+                    <a href="https://github.com/joe6276" className="nav-left-item">about</a>
+                    <a href="https://github.com/joe6276" className="nav-left-item">contact</a>
                 </div>
                 <div className="nav-right">
                     <AiOutlineShoppingCart className='cart-icon' />
