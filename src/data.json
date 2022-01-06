@@ -5,12 +5,7 @@
           "name": "Product Page",
           "description":"Shopping Card",
           "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/bognvsqd34ueowkompeh.jpg"
-        },
-        {
-          "id": "second",
-          "name": "GitHub User Search App",
-          "description":"Another Card",
-          "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/vnhorbifareii6uedrt4.jpg"
         }
+     
     ]
 }
