@@ -1,15 +1,18 @@
 import Card from "./Component/Card";
-import Homepage from "./Component/Homepage";
 import ProductPage from "./Component/ProductPage";
 
 import './app.css'
+import { Route, Routes } from "react-router";
 function App() {
   return (
     <div className="app-container">
+      <Routes>
 
-      {/* <Homepage/>
-<Card/> */}
-      <ProductPage />
+        <Route path="/"  exact element={<Card/>}/>
+        
+        
+        <Route path="/challenge/first" element={<ProductPage/>}></Route>
+      </Routes>
     </div>
   );
 }
