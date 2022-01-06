@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Card from './Card'
 import './Homepage.css'
 export default class Homepage extends Component {
     render() {
