@@ -5,7 +5,7 @@ import  './cards.css'
 
 const Cards=({challenge,i})=> {
     return (
-    <div>
+    <div className='d-flex'>
         <div class="card" style={{width:'18rem',margin:'20px'}}>
         <img src={challenge.image} class="card-img-top" alt="challenge pic"/>
         <div class="card-body">

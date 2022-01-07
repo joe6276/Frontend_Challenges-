@@ -9,7 +9,7 @@ function App() {
     <div className="app-container">
       <Routes>
 
-        <Route path="/"  exact element={<Card/>}/>
+        <Route exact path="/"  exact element={<Card/>}/>
         
         
         <Route path="/challenge/first" element={<ProductPage/>}></Route>
