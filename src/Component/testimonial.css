@@ -95,9 +95,13 @@ background-color: white;
  font-size: 10px;
  padding: 10px;
  border-radius: 10px;
+ box-shadow: black;
+}
+body{
+    background-color: #ecf1f8;
 }
 .whole{
-    background-color: lightgray;
+   
     margin: 20px;
     padding: 10px;
     font-family:Barlow Semi Condensed;

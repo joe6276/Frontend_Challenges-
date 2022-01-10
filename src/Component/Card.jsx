@@ -9,7 +9,7 @@ export default class Card extends Component {
         return (
             <div>
             <Homepage/>
-        <div  style={{display:'flex', flexDirection:'column'}}> 
+        <div  style={{display:'flex', flexDirection:'row'}}> 
             {data.challenges.map((challenge, i) =>(
             <Cards key={i} index={i+1} challenge={challenge}/>
             ))}
