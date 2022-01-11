@@ -5,6 +5,7 @@ import Testimonial from "./Component/Testimonial";
 import './app.css'
 import { Route, Routes } from "react-router";
 import Room from "./Component/Room";
+import Brief from "./Component/Brief/brief";
 function App() {
   return (
     <div className="app-container">
@@ -16,6 +17,7 @@ function App() {
         <Route path="/challenge/first" element={<ProductPage/>}></Route>
         <Route path="/challenge/second" element={<Testimonial/>}></Route>
         <Route path="/challenge/third" element= {<Room/>}></Route>
+        <Route path="/challenge/four" element={<Brief/>}></Route>
       </Routes>
     </div>
   );
