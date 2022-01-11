@@ -21,6 +21,14 @@
           "git":"https://github.com/joe6276/Frontend_Challenges-/tree/testimonial",
           "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/cgi7kxhbyqkonep9ds3y.jpg"
         }
+        ,
+        {
+          "id": "four",
+          "name": "Brief Page",
+          "description":" Photosnap multi-page website ",
+          "git":"https://github.com/joe6276/Frontend_Challenges-/tree/testimonial",
+          "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/pbdzyfy546b6jlzqrkjb.jpg"
+        }
      
     ]
 }
