@@ -35,6 +35,13 @@
           "description":"Pricing component with toggle ",
           "git":"https://github.com/joe6276/Frontend_Challenges-/tree/testimonial",
           "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/pzkdrqu0lizrk8qgmiti.jpg"
+        },
+        {
+          "id": "six",
+          "name": "Social proof",
+          "description":"Social proof section ",
+          "git":"https://github.com/joe6276/Frontend_Challenges-/tree/testimonial",
+          "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/c5mnesn5eknealmjz4w2.jpg"
         }
      
      

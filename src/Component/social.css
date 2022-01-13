@@ -1,0 +1,141 @@
+.div-con{
+    background-color: white;
+    border:2px solid black;
+    padding: 30px;
+}
+.contain2{
+width: 1000px;
+background-color:  hsl(0, 0%, 100%);
+height: 300px;
+}
+
+.contain121{
+    display: flex;
+    border-radius: 0px;
+    margin-top: 5px;
+    background-color:  hsl(303, 10%, 53%);
+    color:black;
+    border-radius: 5px;
+    margin-left: 40px;
+    padding: 10px;
+    width: 360px;
+}
+.contain122{
+    display: flex;
+    border-radius: 0px;
+    margin-left: 65px;
+    margin-top: 5px;
+    background-color:  hsl(303, 10%, 53%);
+    color:black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 360px;
+}
+.heda{
+    color: hsl(300, 43%, 22%); ;
+}
+.contain123{
+    display: flex;
+    border-radius: 0px;
+    margin-left: 80px;
+    margin-top: 5px;
+    background-color:  hsl(303, 10%, 53%);
+    color:black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 360px;
+}
+
+.contain2{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px;
+    grid-template-areas: 
+    "one one two two"
+   
+}
+
+.contain12{
+    grid-area: one;
+    color: black;
+    border-radius:10px;
+    padding: 10px;
+}
+
+.contain13{
+    grid-area: two;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contain4{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.contain41{
+    display: flex;
+    align-content: center;
+}
+
+
+.inner_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    }
+    .inner_image_container{
+        width: 50px;
+        height: 50px;
+    }
+    .p_name{
+        margin-left: 10px;
+        margin-bottom: 2px;
+        color: white;
+       
+    }
+    .p_name1{
+        margin-left: 10px;
+        margin-bottom:10px;
+       color:  hsl(333, 80%, 67%)
+    }
+
+    .div1{
+        background-color:  hsl(300, 43%, 22%);
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 400px;
+        height: 250px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .div2{
+        background-color:  hsl(300, 43%, 22%);
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 400px;
+        height: 250px;
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+
+    .div3{
+        background-color:  hsl(300, 43%, 22%);
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 400px;
+        height: 250px;
+        margin-top: 60px;
+       
+    }
+
+
+   
+
+   

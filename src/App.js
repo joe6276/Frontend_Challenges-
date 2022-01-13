@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router";
 import Room from "./Component/Room";
 import Brief from "./Component/Brief/brief";
 import Price from "./Component/Price";
+import Social from "./Component/Social";
 function App() {
   return (
     <div className="app-container">
@@ -17,6 +18,7 @@ function App() {
         <Route path="/challenge/third" element= {<Room/>}></Route>
         <Route path="/challenge/four" element={<Brief/>}></Route>
         <Route  path="/challenge/five" element={<Price/>}></Route>
+        <Route  path="/challenge/six" element={<Social/>}></Route>
       </Routes>
     </div>
   );
