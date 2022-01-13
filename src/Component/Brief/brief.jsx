@@ -110,10 +110,21 @@ export default class brief extends Component {
                 <div className='fives'>
 
                     <div className="fiveone">
-                    <img className='first-image' src={image6} alt="" />
-                   <p className="text2">Hello</p>
+                        <div className="imgclass">
+                        <img className='first-image' src={image6} alt="" />
+                                        
+                    <div className="text2"><p>
+                        The  Mountains 
+                        By Joe Ndambuki
+                        
+                        </p>
+                        <hr className='line'></hr>
+                        </div>
+                   
                     </div>
+                    </div>  
                     <div className="fivetwo">
+
                     <img className='first-image' src={image5} alt="" />
                     </div>
                     <div className="fivethree">
@@ -125,6 +136,8 @@ export default class brief extends Component {
                     </div>
 
                 </div>
+
+                
             </div>
         )
     }

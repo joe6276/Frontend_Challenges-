@@ -29,6 +29,14 @@
           "git":"https://github.com/joe6276/Frontend_Challenges-/tree/testimonial",
           "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/pbdzyfy546b6jlzqrkjb.jpg"
         }
+        , {
+          "id": "five",
+          "name": "Pricing Page",
+          "description":"Pricing component with toggle ",
+          "git":"https://github.com/joe6276/Frontend_Challenges-/tree/testimonial",
+          "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/pzkdrqu0lizrk8qgmiti.jpg"
+        }
+     
      
     ]
 }
