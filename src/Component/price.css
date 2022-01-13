@@ -1,0 +1,117 @@
+.container_div{
+     width:90%;
+     height:90%;
+     font-size: 15px;
+}
+.toogle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toogle .time{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.toggle-icon{
+    width: 60px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 20px;
+    position: relative;
+}
+.toggle-icon .inner-dot{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 1px;
+    left: 2px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.contain{
+    margin-top: 10px;
+    display: grid;
+  
+    grid-template-columns: repeat(3, 1fr );
+    grid-template-rows:480px ;
+    grid-template-areas: 
+    "one two three"
+}
+
+.contain1{
+        grid-area: one;
+        border-radius:10px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       
+        background-color: hsl(240, 78%, 98%);
+}
+.contain2{
+    grid-area: two;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+   background-color: hsl(228, 45%, 44%);
+    
+}
+
+.contain_paragraph1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.contain3{
+    grid-area: three;
+    border-radius:10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    background-color: hsl(240, 78%, 98%);
+}
+.line{
+    color: black;
+    width: 80%;
+    height: 8px;
+}
+
+.line2{
+    color:white;
+    width: 80%;
+  }
+  .line3{
+        color: black;
+        width: 80%;
+        height: 8px;
+  }
+
+  .lines{
+    border: 0;
+    height: 1px;
+    background: #fff;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  }
+.btns{
+    background-color: hsl(233, 13%, 49%);;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: white;
+    color: hsl(233, 13%, 49%);
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
