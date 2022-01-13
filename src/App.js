@@ -11,10 +11,7 @@ function App() {
   return (
     <div className="app-container">
       <Routes>
-
         <Route exact path="/"  exact element={<Card/>}/>
-        
-        
         <Route path="/challenge/first" element={<ProductPage/>}></Route>
         <Route path="/challenge/second" element={<Testimonial/>}></Route>
         <Route path="/challenge/third" element= {<Room/>}></Route>
