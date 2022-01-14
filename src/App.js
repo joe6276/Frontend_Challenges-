@@ -8,6 +8,7 @@ import Room from "./Component/Room";
 import Brief from "./Component/Brief/brief";
 import Price from "./Component/Price";
 import Social from "./Component/Social";
+import Stat from "./Component/Stat";
 function App() {
   return (
     <div className="app-container">
@@ -19,6 +20,7 @@ function App() {
         <Route path="/challenge/four" element={<Brief/>}></Route>
         <Route  path="/challenge/five" element={<Price/>}></Route>
         <Route  path="/challenge/six" element={<Social/>}></Route>
+        <Route  path="/challenge/seven" element={<Stat/>}></Route>
       </Routes>
     </div>
   );
