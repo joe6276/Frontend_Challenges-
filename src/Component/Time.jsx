@@ -17,12 +17,16 @@ export default class Time extends Component {
                     <div className="divone">
                       
                         <div className='divone1'>
-                         <div style={{width:'80px' , height:'80px'}}>
+                         <div style={{width:'80px' ,margin:'20px', height:'80px'}}>
+
                             <img  style={{width:'100%' , height :'100%'}}src={jeremy} alt="" />
                            
-                            <p> Report by:</p>
-                            <p>Jeremy Robson</p>
+                            
                         </div>
+                        <br/>
+                        <br/>
+                         <p>Report by:</p>
+                         <p className='tp'>Jeremy Robson</p>
                         </div>
                         <div className='divone2'>
                             <p>Daily</p>
@@ -108,7 +112,7 @@ export default class Time extends Component {
                     <div className="divseven">
                     <img className='divtwoimg' src={selfcare} alt="" />
                         <div className="divtwo1">
-                            <div className='work'>
+                            <div className='work1'>
                                 <div>Self care</div>
                                 <div><BsThreeDots/></div>
                             </div>
