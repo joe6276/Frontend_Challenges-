@@ -48,8 +48,21 @@
           "name": "Stats Previe ",
           "description":"Stat Previe Card ",
           "git":"https://github.com/joe6276/Frontend_Challenges-/tree/testimonial",
-          "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/c5mnesn5eknealmjz4w2.jpg"
+          "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/t26y9p3veejvbc9biv3f.jpg"
+        },
+        {
+          "id": "eight",
+          "name": "Time tracking dashboard",
+          "description":"Time tracking dashboard",
+          "git":"https://github.com/joe6276/Frontend_Challenges-/tree/testimonial",
+          "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/dgmrkrfyzvyzwuwl7vac.jpg"
         }
+
+
+
+
+
+        
      
      
     ]
