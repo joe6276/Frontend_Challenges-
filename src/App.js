@@ -9,6 +9,7 @@ import Brief from "./Component/Brief/brief";
 import Price from "./Component/Price";
 import Social from "./Component/Social";
 import Stat from "./Component/Stat";
+import Time from "./Component/Time";
 function App() {
   return (
     <div className="app-container">
@@ -21,6 +22,7 @@ function App() {
         <Route  path="/challenge/five" element={<Price/>}></Route>
         <Route  path="/challenge/six" element={<Social/>}></Route>
         <Route  path="/challenge/seven" element={<Stat/>}></Route>
+        <Route  path="/challenge/eight" element={<Time/>}></Route>
       </Routes>
     </div>
   );
