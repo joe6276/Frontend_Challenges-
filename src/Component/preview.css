@@ -1,0 +1,92 @@
+.preview_container{
+    display: grid;
+
+    margin: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 500px;
+    grid-template-areas: 
+    "one two three "
+}
+
+@media screen and (max-width: 500px) {
+    .preview_container{
+        display: grid;
+        background-color: blueviolet;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 500px 500px 500px;
+        grid-template-areas: 
+        "one "
+        "two" 
+        "three"
+  
+    }
+}
+
+.prevone{
+    grid-area: one;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+   background-color: hsl(31, 77%, 52%);
+   justify-content: space-evenly;
+   color: white;
+    
+}
+
+
+.prevtwo{
+    grid-area: two;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(184, 100%, 22%);
+    justify-content: space-evenly;
+   color: white;
+    
+}
+.prevthree{
+    grid-area: three;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(179, 100%, 13%);
+    justify-content: space-evenly;
+   color: white;
+    
+}
+
+.prev_img{
+    width: 80px;
+    height: 60px;
+}
+
+
+.prevbtn{
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    width: 200px;
+    border-radius: 40px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.prevbtn1{
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    width: 200px;
+    border-radius: 40px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.prevbtn2{
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    width: 200px;
+    border-radius: 40px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
