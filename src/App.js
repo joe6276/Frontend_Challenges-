@@ -10,6 +10,7 @@ import Price from "./Component/Price";
 import Social from "./Component/Social";
 import Stat from "./Component/Stat";
 import Time from "./Component/Time";
+import Preview from "./Component/Preview";
 function App() {
   return (
     <div className="app-container">
@@ -23,6 +24,7 @@ function App() {
         <Route  path="/challenge/six" element={<Social/>}></Route>
         <Route  path="/challenge/seven" element={<Stat/>}></Route>
         <Route  path="/challenge/eight" element={<Time/>}></Route>
+        <Route  path="/challenge/nine" element={<Preview/>}></Route>
       </Routes>
     </div>
   );

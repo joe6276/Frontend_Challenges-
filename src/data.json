@@ -56,6 +56,13 @@
           "description":"Time tracking dashboard",
           "git":"https://github.com/joe6276/Frontend_Challenges-/tree/testimonial",
           "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/dgmrkrfyzvyzwuwl7vac.jpg"
+        },
+        {
+          "id": "nine",
+          "name": "3-column preview card component",
+          "description":"3-column preview card component",
+          "git":"https://github.com/joe6276/Frontend_Challenges-/tree/testimonial",
+          "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/ap7h50kkrdq7zclbokox.jpg"
         }
 
 
