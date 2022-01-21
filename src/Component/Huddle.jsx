@@ -4,7 +4,9 @@ import './huddle.css'
 import message from '../images/icon-messages.svg'
 import phone from '../images/screen-mockups.svg'
 import communities from '../images/icon-communities.svg'
-import phone2 from '../images/bg-section-top-desktop-2.svg'
+import phone2 from '../images/icon-email.svg'
+import phone3 from '../images/icon-phone.svg'
+import phone5 from '../images/icon-messages.svg'
 import grow from '../images/illustration-grow-together.svg'
 import user from '../images/illustration-your-users.svg'
 import flow from '../images/illustration-flowing-conversation.svg'
@@ -100,6 +102,43 @@ export default class
             <h1>   Ready To Build Your Community?</h1>
             <button className="huddle_header2b">
   Get Started For Free</button>
+        </div>
+
+
+        <div className="huddle_footer">
+            <div className="huddle_footer1">
+                <div>
+                <img src={message} alt="" /> <span>Huddle</span>
+                </div>
+                <div>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+                vestibulum a, ultrices quis sem.
+                </p>
+                </div>
+
+                <div>
+                    <p>  Phone: +1-543-123-4567</p>
+                </div>
+                <div>
+                    <p> example@huddle.com</p>
+                </div>
+                <div className='huddle_icons'>
+                    <img  style={{width:'30px', height :'30px'}} src={phone2} alt="" />
+                    <img  style={{width:'30px', height :'30px'}} src={phone3} alt="" />
+                    <img  style={{width:'30px', height :'30px'}} src={phone5} alt="" />
+                </div>
+            </div>
+            <div className="huddle_footer2">        
+                <div><h1>NEWSLETTER</h1></div>
+                <div><p> 
+                To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+                send you spam or pass on your email address</p></div>
+                <div className='huddle_form'> 
+                <input type='text' />
+                <button>Subscribe</button>
+                </div>
+            </div>
         </div>
 
     </div>
