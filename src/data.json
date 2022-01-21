@@ -64,7 +64,20 @@
           "git":"https://github.com/joe6276/Frontend_Challenges-/tree/testimonial",
           "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/ap7h50kkrdq7zclbokox.jpg"
         }
-
+        , {
+          "id": "ten",
+          "name": "Order summary component",
+          "description":"Order summary component",
+          "git":"https://github.com/joe6276/Frontend_Challenges-/tree/testimonial",
+          "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/gh4wbxnbnf9wqezb0b6y.jpg"
+        }
+        , {
+          "id": "eleven",
+          "name": "Huddle",
+          "description":"Huddle component",
+          "git":"https://github.com/joe6276/Frontend_Challenges-/tree/testimonial",
+          "image":"https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/gh4wbxnbnf9wqezb0b6y.jpg"
+        }
 
 
 

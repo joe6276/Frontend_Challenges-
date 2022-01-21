@@ -11,6 +11,7 @@ import Social from "./Component/Social";
 import Stat from "./Component/Stat";
 import Time from "./Component/Time";
 import Preview from "./Component/Preview";
+import Huddle from "./Component/Huddle";
 function App() {
   return (
     <div className="app-container">
@@ -25,6 +26,7 @@ function App() {
         <Route  path="/challenge/seven" element={<Stat/>}></Route>
         <Route  path="/challenge/eight" element={<Time/>}></Route>
         <Route  path="/challenge/nine" element={<Preview/>}></Route>
+        <Route  path="/challenge/eleven" element={<Huddle/>}></Route>
       </Routes>
     </div>
   );
